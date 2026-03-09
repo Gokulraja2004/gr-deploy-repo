@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: cont1
-          image: 222949578314.dkr.ecr.ap-south-1.amazonaws.com/gr-pipeline:latest
+          image: 222949578314.dkr.ecr.ap-south-1.amazonaws.com/gr-pipeline:17-ccc729c
           imagePullPolicy: Always
           ports:
             - containerPort: 80
