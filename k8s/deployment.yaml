@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
         - name: cont1
-          image: 992382429239.dkr.ecr.ap-south-1.amazonaws.com/lwm-alpha:latest
-          imagePullPolicy: IfNotPresent
+          image: 222949578314.dkr.ecr.ap-south-1.amazonaws.com/gr-pipeline:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
           resources:
